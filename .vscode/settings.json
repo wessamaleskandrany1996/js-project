@@ -1,0 +1,7 @@
+{
+  "liveServer.settings.port": 5501,
+  "autoprefixer.findExternalAutoprefixer": true,
+  "autoprefixer.formatOnSave": true,
+  "prettier.enableDebugLogs": true,
+  "prettier.requirePragma": true
+}

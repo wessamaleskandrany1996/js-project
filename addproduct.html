@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add product</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="title">
+        <p>WISH</p>
+    </div>
+    <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="x">
+              <label for="img">Product Img</label>
+            </div>
+            <div class="y">
+              <input type="file" id="img" name="img" style="height: 100px" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="x">
+              <label for="name">Product Title</label>
+            </div>
+            <div class="y">
+              <input type="text" id="name" name="name" placeholder="Product" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="x">
+              <label for="price">Product price</label>
+            </div>
+            <div class="y">
+              <input type="text" id="price" name="price" placeholder="price" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="x">
+              <label for="category">Product Category</label>
+            </div>
+            <div class="y">
+              <input
+                type="text"
+                id="category"
+                category="category"
+                placeholder="Category"
+              />
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="x">
+              <label for="Description">Description</label>
+            </div>
+            <div class="y">
+              <textarea
+                id="Description"
+                name="Description"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+  
+          <div class="row">
+            <a type="submit" value="Add your Product" href="try.html" onclick="add()">add</a>
+          </div>
+        </form>
+      </div>
+      <script src="addproduct.js"></script>
+      <!-- <script src="try.js"></script> -->
+</body>
+</html>
